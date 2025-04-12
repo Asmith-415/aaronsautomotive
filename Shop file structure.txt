@@ -1,0 +1,20 @@
+/auto-shop/
+├── index.html              # Home page
+├── about.html              # About Us page
+├── services.html           # Services offered
+├── gallery.html            # Photo gallery
+├── testimonials.html       # Customer reviews
+├── team.html               # Staff profiles
+├── contact.html            # Contact information
+├── appointment.html        # Booking form
+├── specials.html           # Current promotions
+├── faq.html                # Frequently asked questions
+├── blog/                   # Blog section
+│   ├── post1.html          # Sample blog post
+│   └── post2.html          # Sample blog post
+├── css/
+│   └── style.css           # Main stylesheet
+├── js/
+│   └── scripts.js          # JavaScript file
+├── images/                 # All website images
+└── assets/                 # Additional assets

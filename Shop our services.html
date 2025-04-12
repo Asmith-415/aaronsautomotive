@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Aaron's Automotive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #1a3e72;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .services-intro {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: white;
+            margin-bottom: 2rem;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 0 1rem 2rem;
+        }
+        
+        .service-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-icon {
+            background-color: #1a3e72;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        
+        .service-content {
+            padding: 1.5rem;
+        }
+        
+        .service-content h3 {
+            color: #1a3e72;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .service-content p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-section {
+            background-color: #1a3e72;
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            margin-top: 2rem;
+        }
+        
+        .cta-section h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #f7931e;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #e07e0c;
+        }
+        
+        footer {
+            background-color: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Aaron's Automotive</h1>
+            <p class="tagline">Quality service for your vehicle</p>    
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Shop website sample code.html">Home</a></li>
+                <li><a href="Shop about us.html">About</a></li>
+                <li><a href="shop contact us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="services-intro">
+        <div class="container">
+            <h2>Our Automotive Services</h2>
+            <p>At Aaron's Automotive, we provide comprehensive vehicle maintenance and repair services to keep your car running smoothly and safely.</p>
+        </div>
+    </section>
+    
+    <div class="container">
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🛢️</div>
+                <div class="service-content">
+                    <h3>Oil Changes</h3>
+                    <p>Regular oil changes are essential for engine longevity. We use high-quality oils and filters to keep your engine running clean and efficient.</p>
+                    <p>Includes multi-point inspection.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🔄</div>
+                <div class="service-content">
+                    <h3>Tire Rotation</h3>
+                    <p>Extend the life of your tires with regular rotations. We'll ensure even wear and optimal performance for all your tires.</p>
+                    <p>Includes tire pressure check and adjustment.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🔋</div>
+                <div class="service-content">
+                    <h3>Battery Testing</h3>
+                    <p>Don't get stranded with a dead battery. We'll test your battery's health and charging system to prevent unexpected failures.</p>
+                    <p>Includes terminal cleaning and inspection.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🚗</div>
+                <div class="service-content">
+                    <h3>Diagnostic Services</h3>
+                    <p>Using state-of-the-art equipment, we'll quickly identify any issues with your vehicle's systems and provide accurate solutions.</p>
+                    <p>Check engine light diagnostics available.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <div class="service-content">
+                    <h3>Brake Services</h3>
+                    <p>Your safety is our priority. We offer complete brake inspections, pad replacements, rotor resurfacing, and full brake system service.</p>
+                    <p>Includes free brake inspection with every service.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🛠️</div>
+                <div class="service-content">
+                    <h3>And Much More!</h3>
+                    <p>From alignments to air conditioning, transmission service to tune-ups, Aaron's Automotive handles all your vehicle's needs.</p>
+                    <p>Ask us about our maintenance packages.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready for Professional Auto Care?</h2>
+            <p>Schedule your appointment today and experience the Aaron's Automotive difference.</p>
+            <a href="Shop appointments.html" class="btn">Book an Appointment</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aaron's Automotive. All rights reserved.</p>
+            <p>Quality service you can trust since 2015</p>
+        </div>
+    </footer>
+</body>
+</html>
