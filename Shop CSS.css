@@ -30,8 +30,8 @@ nav ul li {
 }
 
 nav a {
-    color: white;
-    textcolor:orange;
+    color: orange;
+    text-decoration: none;
     font-weight: bold;
 }
 
